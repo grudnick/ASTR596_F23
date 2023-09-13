@@ -23,7 +23,7 @@ def cmdplot(clustname='', magshift=0,colshift=0):
 
     #set plotting parameters
     plotsize_single=(9,7)
-    params = {'backend': 'pdf',
+    params = {#'backend': 'pdf',
                   'axes.labelsize': 18,
                   'font.size': 18,
                   'legend.fontsize': 12,
